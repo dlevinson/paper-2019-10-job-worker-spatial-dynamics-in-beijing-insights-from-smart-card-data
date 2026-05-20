@@ -1,6 +1,6 @@
 # Package Status: Job-Worker Spatial Dynamics In Beijing: Insights From Smart Card Data
 
-Generated: 2026-05-20 14:46:37 AEST
+Generated: 2026-05-20 15:23:47 AEST
 
 ## Audit State
 
