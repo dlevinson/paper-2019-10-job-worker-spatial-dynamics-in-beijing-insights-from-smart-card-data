@@ -37,7 +37,7 @@ Last updated: 2026-05-17 23:46:57 Australia/Sydney.
 <!-- package-hardening-status:start -->
 ## Package Hardening Status
 
-Generated: 2026-05-20 15:32:54 AEST
+Generated: 2026-05-21 20:19:00 AEST
 
 - Pipeline: `READY-TO-UPLOAD/PUBLIC`
 - Sidecars added/updated: `PACKAGE_STATUS.md`, `PACKAGE_MANIFEST.csv`, `LICENSE_STATUS.md`.
