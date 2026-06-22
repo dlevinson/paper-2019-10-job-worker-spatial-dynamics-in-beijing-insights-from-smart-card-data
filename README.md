@@ -1,5 +1,9 @@
 # Job-Worker Spatial Dynamics In Beijing: Insights From Smart Card Data
 
+## Contribution
+
+This paper develops a smart-card method for estimating and tracking station-area job–worker balance among regular transit commuters. Applied longitudinally in Beijing, it identifies temporary local balance, a broader tendency toward steeper job–worker imbalances, and the polycentric pattern of emerging employment centers.
+
 ## Bibliographic Information
 
 - Row ID: `paper-2019-10`
