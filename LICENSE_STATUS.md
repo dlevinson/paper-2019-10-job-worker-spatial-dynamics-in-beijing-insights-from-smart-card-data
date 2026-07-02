@@ -1,13 +1,15 @@
 # License Status: Job-Worker Spatial Dynamics In Beijing: Insights From Smart Card Data
 
-Generated: 2026-05-21 20:19:00 AEST
+Generated: 2026-07-02 12:13:14 AEST
 
 Recorded license/access note from the verified audit row: Publisher/repository terms for paper text; no open license for raw smart-card records.
 
-Before public GitHub upload, add an explicit license for author-created code/data or mark the package as citation/provenance-only. Do not license third-party raw data or publisher PDFs.
+The root `LICENSE` now provides an operative CC BY 4.0 boundary for rights-cleared author-created repository documentation, package metadata, source-decision notes, closeout records, public reference metadata, generated dictionaries, manifests, and the aggregate non-sensitive AWR formula-check workbook/CSV to the extent controlled by the paper authors or repository maintainers.
+
+Do not license third-party raw data, publisher PDFs, controlled smart-card records, public-agency/data-holder source records, or vendor/runtime/file-format structures.
 
 ## Practical Rule
 
-- Author-created code can receive an explicit software license only after finality/provenance is confirmed.
-- Author-created data/derived tables can receive an explicit data/documentation license only after source rights are clear.
-- Third-party raw data and publisher PDFs are not relicensed here.
+- No executable software, scripts, notebooks, SQL extraction workflow, rule-processing code, or model source code is staged here; no separate software license is granted.
+- Rights-cleared author-created documentation, metadata, closeout records, manifests, and aggregate derived AWR formula-check materials are covered by CC BY 4.0.
+- Raw Beijing subway smart-card records, card IDs, boarding/alighting traces, passenger or station-level trace datasets, SQL Server source extracts, Beijing Subway/public-agency/data-holder records, third-party raw data, and publisher PDFs are not relicensed here.

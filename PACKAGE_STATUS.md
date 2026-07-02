@@ -1,6 +1,6 @@
 # Package Status: Job-Worker Spatial Dynamics In Beijing: Insights From Smart Card Data
 
-Generated: 2026-05-21 20:19:00 AEST
+Generated: 2026-07-02 12:13:14 AEST
 
 ## Audit State
 
@@ -15,7 +15,7 @@ Generated: 2026-05-21 20:19:00 AEST
 
 ## Package Checks
 
-- Files in manifest: 12
+- Files in manifest: 13
 - Paper reference files: 2
 - Code candidates: 0
 - Data candidates: 2
@@ -26,4 +26,5 @@ Generated: 2026-05-21 20:19:00 AEST
 
 - Use `PACKAGE_MANIFEST.csv` as the upload checklist.
 - Treat files under `paper/` as local reference copies unless rights review explicitly clears them.
-- Confirm finality and license before repository creation.
+- The root `LICENSE` applies CC BY 4.0 only to rights-cleared author-created documentation, metadata, closeout records, manifests, and aggregate non-sensitive AWR formula-check materials.
+- Raw smart-card records, card IDs, trip traces, SQL/source extracts, public-agency/data-holder source records, publisher PDFs, and third-party or vendor/runtime materials are not relicensed.
