@@ -14,9 +14,9 @@ This paper develops a smart-card method for estimating and tracking station-area
 
 ## Package Status
 
-This package is ready for public upload review as a partial, non-sensitive support package. The paper uses Beijing subway smart-card records with card-level travel traces and SQL/rule-based commuter identification. Those raw data and processing scripts were not found locally and are not included here.
+This package is a public partial, non-sensitive support package. The paper uses Beijing subway smart-card records with card-level travel traces and SQL/rule-based commuter identification. Those raw data and processing scripts were not found locally and are not included here.
 
-The only data-like local file found was `AWR.xlsx`, a five-row aggregate/formula-check workbook. It has been staged as non-sensitive derived support in both original XLSX and CSV forms. It does not contain card IDs, station-level traces, or raw smart-card records, and it is not sufficient to reproduce the paper.
+The original local support file was `AWR.xlsx`, a five-row aggregate/formula-check workbook. On 2026-07-09, Jie Huang provided `cities19 data 20260709.xls`, a station-level derived aggregate workbook with 268 Beijing subway station rows, line/station/district fields, station coordinates, and job-worker ratio columns for 2011-2015. These derived aggregate workbooks have been staged with CSV sidecars. They do not contain card IDs, passenger traces, boarding/alighting event records, or raw smart-card records, and they are not sufficient to reproduce the paper from raw data.
 
 ## Included Files
 
@@ -24,6 +24,8 @@ The only data-like local file found was `AWR.xlsx`, a five-row aggregate/formula
 - `LICENSE`: operative repository license and provenance boundary for rights-cleared staged materials.
 - `data/derived_non_sensitive/job_worker_awr_formula_check.xlsx`: small aggregate/formula workbook copied from `AWR.xlsx`.
 - `data/derived_non_sensitive/job_worker_awr_formula_check.csv`: CSV conversion of the workbook.
+- `data/derived_non_sensitive/beijing_station_job_worker_ratios_2011_2015.xls`: station-level derived aggregate workbook received from Jie Huang on 2026-07-09.
+- `data/derived_non_sensitive/beijing_station_job_worker_ratios_2011_2015.csv`: CSV conversion of the station-level derived aggregate workbook.
 - `metadata/SOURCE_FILE_DECISIONS.csv`: file-by-file decision log for the local source folder.
 - `metadata/PUBLIC_REFERENCE_LINKS.csv`: public article/preprint pointers.
 - `metadata/PACKAGE_FILE_MANIFEST.csv`: current package file list with checksums.
@@ -36,11 +38,11 @@ Draft manuscripts, preprints, conference versions, reviewer responses, and edito
 
 ## Remaining Request
 
-No further local search is queued for this package. The staged AWR workbook/CSV is the available local support artifact; raw smart-card data and SQL scripts remain absent and are not part of this package.
+No further local search is queued for this package. The staged aggregate workbooks/CSVs are the available local support artifacts; raw smart-card data and SQL scripts remain absent and are not part of this package.
 
 ## License And Provenance Boundary
 
-The root `LICENSE` applies CC BY 4.0 only to rights-cleared author-created repository documentation, package metadata, source-decision notes, closeout records, public reference metadata, generated dictionaries, manifests, and the aggregate non-sensitive AWR formula-check workbook/CSV to the extent controlled by the paper authors or repository maintainers.
+The root `LICENSE` applies CC BY 4.0 only to rights-cleared author-created repository documentation, package metadata, source-decision notes, closeout records, public reference metadata, generated dictionaries, manifests, the aggregate non-sensitive AWR formula-check workbook/CSV, and the aggregate station-level job-worker-ratio workbook/CSV to the extent controlled by the paper authors or repository maintainers.
 
 The license does not relicense the publication PDF, raw Beijing subway smart-card records, card IDs, boarding/alighting traces, individual passenger or station-level trace datasets, SQL Server source extracts, raw or de-identified smart-card datasets, Beijing Subway/public-agency/data-holder source records, vendor file-format structures, or other third-party/external materials. No separate software license is granted because no executable software, scripts, notebooks, SQL extraction workflow, or rule-processing code is staged in this repository.
 

@@ -18,8 +18,9 @@ Creative Commons Attribution 4.0 International License (CC BY 4.0):
 
 https://creativecommons.org/licenses/by/4.0/
 
-This license also covers the staged aggregate AWR formula-check workbook and
-CSV in `data/derived_non_sensitive/` only to the extent they consist of
+This license also covers the staged aggregate AWR formula-check workbook/CSV
+and the staged station-level job-worker-ratio workbook/CSV in
+`data/derived_non_sensitive/` only to the extent they consist of
 author-created selection, tabulation, formulas, or analysis controlled by the
 paper authors or repository maintainers.
 
